@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <string name="app_name">Honoraris</string>
+    <string name="action_settings">Settings</string>
+    <string name="hello_world">Hello world!</string>
+    <string name="calcular_honoraris">Calcular Honoraris</string>
+    <string name="calcular_retenci_">Calcular Retenció</string>
+    <string name="total_factura">Total Factura</string>
+    <string name="despeses_del_col_legi">Despeses del col·legi</string>
+    <string name="despeses_de_la_asseguran_a">Despeses de la assegurança</string>
+    <string name="calcular">Calcular</string>
+    <string name="opcions">Opcions</string>
+
+</resources>

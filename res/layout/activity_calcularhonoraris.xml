@@ -1,0 +1,77 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent" >
+
+    <TextView
+        android:id="@+id/textView1"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignBaseline="@+id/totalFactura"
+        android:layout_alignBottom="@+id/totalFactura"
+        android:layout_alignParentLeft="true"
+        android:text="@string/total_factura" />
+
+    <EditText
+        android:id="@+id/totalFactura"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignLeft="@+id/despesesColegi"
+        android:layout_alignParentRight="true"
+        android:layout_alignParentTop="true"
+        android:layout_marginTop="46dp"
+        android:ems="10"
+        android:inputType="numberDecimal" >
+
+        <requestFocus />
+    </EditText>
+
+    <TextView
+        android:id="@+id/textView2"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentLeft="true"
+        android:layout_below="@+id/totalFactura"
+        android:layout_marginTop="26dp"
+        android:text="@string/despeses_del_col_legi" />
+
+    <EditText
+        android:id="@+id/despesesColegi"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignBaseline="@+id/textView2"
+        android:layout_alignBottom="@+id/textView2"
+        android:layout_alignLeft="@+id/despesesAsseguransa"
+        android:layout_alignParentRight="true"
+        android:inputType="numberDecimal" />
+
+    <EditText
+        android:id="@+id/despesesAsseguransa"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignBaseline="@+id/textView3"
+        android:layout_alignBottom="@+id/textView3"
+        android:layout_alignParentRight="true"
+        android:layout_marginLeft="27dp"
+        android:layout_toRightOf="@+id/textView3"
+        android:inputType="numberDecimal" />
+
+    <TextView
+        android:id="@+id/textView3"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentLeft="true"
+        android:layout_below="@+id/despesesColegi"
+        android:layout_marginTop="41dp"
+        android:text="@string/despeses_de_la_asseguran_a" />
+
+    <Button
+        android:id="@+id/calcularHonorari"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/despesesAsseguransa"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="58dp"
+        android:text="@string/calcular" />
+
+</RelativeLayout>
